@@ -1,0 +1,308 @@
+.container {
+  background: #f4f4f4;
+  -webkit-box-shadow: 15.9651px 11.7144px 53.3733px rgba(0, 0, 0, 0.2);
+          box-shadow: 15.9651px 11.7144px 53.3733px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  padding: 45px 34px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  gap: 40px;
+}
+
+.container .border-design {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 13.47px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px 0px 100% 100%;
+  background: #413f3f;
+}
+
+.container .task .Heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+  max-height: 30px;
+}
+
+.container .task .Heading .material-icons-round {
+  color: rgba(65, 63, 63, 0.4);
+}
+
+.container .task .Heading h3 {
+  color: #413f3f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.9673px;
+  line-height: 18px;
+}
+
+.container .task .Heading hr {
+  border: none;
+  border-bottom: 0.99782px solid rgba(188, 188, 196, 0.44);
+  width: -webkit-fill-available;
+}
+
+.container .task .Heading .length {
+  max-width: 15px;
+  min-width: 15px;
+  max-height: 15px;
+  min-height: 15px;
+  background: #413f3f;
+  border: 1.99563px solid #413f3f;
+  border-radius: 5.9869px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.1855px;
+  line-height: 14px;
+  color: #f4f4f4;
+  padding: 2px;
+}
+
+.container .task .Heading .length p {
+  margin: 0px;
+  text-align: center;
+}
+
+.container .task .due {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #776ec9;
+  gap: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-top: -20px;
+}
+
+.container .task .due p,
+.container .task .due .material-icons {
+  font-weight: 700;
+  font-size: 11.9738px;
+  line-height: 14px;
+}
+
+.container .task .write,
+.container .task .task {
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8.7px;
+}
+
+.container .task .write .checkbox,
+.container .task .task .checkbox {
+  width: 19.96px;
+  height: 19.96px;
+  background: #f4f4f4;
+  border: 1.99563px solid #c4c4c4;
+  border-radius: 5.9869px;
+}
+
+.container .task .write p,
+.container .task .task p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.9673px;
+  line-height: 18px;
+  color: #413f3f;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 5px;
+}
+
+.container .task .write .input,
+.container .task .task .input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.9673px;
+  color: rgba(65, 63, 63, 0.6);
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.container .task .write .input.disabled,
+.container .task .task .input.disabled {
+  background: #e2e2e2;
+  border: 2.99345px solid #e2e2e2;
+}
+
+.container .task .write .input:checked,
+.container .task .task .input:checked {
+  background: #b5b5ba;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #b5b5ba !important;
+}
+
+.clean-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #413f3f;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modal-inner {
+  margin: auto;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px 40px;
+  z-index: 4;
+}
+
+.modal .modal-inner h2 {
+  text-align: center;
+  color: #413f3f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.modal .modal-inner .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+.modal .modal-inner .row input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.9673px;
+  color: rgba(65, 63, 63, 0.6);
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.modal .modal-inner .body {
+  min-height: 300px;
+}
+
+.modal .modal-inner .body .task {
+  margin: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8.7px;
+}
+
+.modal .modal-inner .body .task .checkbox {
+  width: 19.96px;
+  height: 19.96px;
+  background: #f4f4f4;
+  border: 1.99563px solid #c4c4c4;
+  border-radius: 5.9869px;
+}
+
+.modal .modal-inner .body .task p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.9673px;
+  line-height: 18px;
+  color: #413f3f;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.modal .modal-inner .footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.modal .modal-inner button {
+  text-align: center;
+  background-color: #b5b5ba;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.9673px;
+  border: none;
+  outline: none;
+  color: #413f3f;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.ml-38 {
+  margin-left: 38px;
+}
+/*# sourceMappingURL=style.css.map */
